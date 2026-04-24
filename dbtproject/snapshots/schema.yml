@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: bronze
+    catalog: dbt_sandbox     
+    schema: bronze          
+    tables:
+      - name: users_raw
